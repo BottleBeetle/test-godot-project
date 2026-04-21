@@ -1,0 +1,30 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot-specific
+.import/
+export.cfg
+export_presets.cfg
+
+# System
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.temp
+
+# Logs
+logs/
+*.log
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# Godot Mono (jeśli kiedyś użyjesz C#)
+.mono/
+data_*/

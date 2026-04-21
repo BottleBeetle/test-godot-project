@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Test_kingdom"
+config/features=PackedStringArray("4.6", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+GameState="*uid://b6pjlkoeob06a"
+EventBus="*uid://c2w3rj8p1u0ve"
+PlayerData="*uid://dooxey13ybg1m"
+SaveManager="*uid://ctfrr25j2i1gk"
+SceneLoader="*uid://dpod47ti7gpab"
+AudioManager="*uid://chtr3ecghi3d0"
+ConfigManager="*uid://dwnoiudry7r2g"
+InputManager="*uid://v487phraiw3y"
+ResourseCache="*uid://bjul2l7y602bk"
+DebugTools="*uid://dw5tku72ki0se"
+DialogueManager="*uid://wqe271oahcwv"
+UiManager="*uid://bc0ub80ei4gr"
+QuestManager="*uid://o62ruc27hm3n"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
