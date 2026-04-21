@@ -18,8 +18,8 @@ var quests_completed: Array = []
 
 # --- Ustawienia gracza ---
 var settings := {
-	"music_volume": 0.8,
-	"sfx_volume": 0.8,
+	"music_volume": 0.5,
+	"sfx_volume": 1.0,
 	"language": "en"
 }
 

@@ -4,8 +4,8 @@ const CONFIG_PATH := "user://config.cfg"
 
 var config := {
 	"audio": {
-		"music_volume": 0.8,
-		"sfx_volume": 0.8
+		"music_volume": 0.5,
+		"sfx_volume": 1.0
 	},
 	"video": {
 		"fullscreen": true,
